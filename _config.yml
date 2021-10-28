@@ -28,7 +28,8 @@ twitter_username: navelkarnishank
 github_username:  nishanknavelkar
 
 # Build settings
-theme: minima
+#removed this theme as it is a regular theme
+#theme: minima
 plugins:
   - jekyll-feed
 
