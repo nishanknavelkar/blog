@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project: Literature survey of Fuel Cell Modeling for Automotive vehicles"
+title:  "Project: Literature survey on Fuel Cell Modeling for Automotive applications"
 date:   2021-10-28 21:00:00 +0200
 categories: Blog
 ---
@@ -20,4 +20,4 @@ cooling. The focus is on identifying high quality publications, i.e. those with 
 and documented models, and high quality active research groups.
 The main objective of this work is literature analysis.
 
-The full report can be found [here](/assets/Fuelcell.pdf)
+<object data="../assets/Fuelcell.pdf" width="1000" height="1000" type='application/pdf'></object>
