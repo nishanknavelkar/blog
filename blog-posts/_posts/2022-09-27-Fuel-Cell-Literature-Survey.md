@@ -20,4 +20,4 @@ cooling. The focus is on identifying high quality publications, i.e. those with 
 and documented models, and high quality active research groups.
 The main objective of this work is literature analysis.
 
-<object data="../assets/Fuelcell.pdf" width="1000" height="1000" type='application/pdf'></object>
+ {% pdf "/assets/Fuelcell.pdf" width=350px height=500px %}
