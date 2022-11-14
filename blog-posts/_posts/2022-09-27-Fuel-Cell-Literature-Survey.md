@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project: Literature survey on Fuel Cell Modeling for Automotive applications"
-date:   2022-09-28 21:00:00 +0200
+date:   2022-10-28 21:00:00 +0200
 categories: Blog
 ---
 ## Task of the Non Technical Project
