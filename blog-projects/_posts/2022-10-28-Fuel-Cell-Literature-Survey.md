@@ -2,7 +2,7 @@
 layout: post
 title:  "Project: Literature survey on Fuel Cell Modeling for Automotive applications"
 date:   2022-10-28 21:00:00 +0200
-categories: Blog
+category: projects
 ---
 ## Task of the Non Technical Project
 
@@ -20,4 +20,4 @@ cooling. The focus is on identifying high quality publications, i.e. those with 
 and documented models, and high quality active research groups.
 The main objective of this work is literature analysis.
 
-The full report can be found [here]({{ site.baseurl }}/assets/Fuelcell.pdf)
+The full report can be found [here]({{ site.baseurl }}/blog-projects/assets/Fuelcell.pdf)
