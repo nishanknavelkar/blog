@@ -7,7 +7,7 @@ permalink: /about/
 # Hello!
 My name is Nishank.
 
-I'm a graduate student studying Electrical engineering and Information Technology.
+I'm a graduate student studying Electrical engineering and Information Technology at Otto Von Guericke University
 
 <!---
 This website is hosted on Github Pages.
