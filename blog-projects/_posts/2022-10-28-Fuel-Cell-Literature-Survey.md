@@ -21,3 +21,5 @@ and documented models, and high quality active research groups.
 The main objective of this work is literature analysis.
 
 The full report can be found [here]({{ site.baseurl }}/blog-projects/assets/Fuelcell.pdf)
+
+Note: work in progress...Blog to be updated with more information
