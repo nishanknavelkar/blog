@@ -6,9 +6,7 @@ category: projects
 ---
 ## Introduction
 An artificial hand is one that replaces a missing part of the human hand. Prostheses are the artificial replacement for missing human limbs.Throughout history, we can see evidence of people using some sort of devices that helped them to do the tasks much more easily, wood, metal, and other materials were used at first, then lighter materials were being used and then the process evolved to make the devices much more human body like. Nowadays we can see advanced prosthetics that are so much similar to human limbs and mimic the functions as well, but the cost involved is high and since these designs are under the protection of patents there are very less chances of people using them especially in developing or underdeveloped countries, although many open sources crowdfunded companies have come up that help people with their disabilities there is a lot of work to be done to make it affordable. 
-
-> **Note**
-> This is my bachelors project, in hindsight I have come to realize that there are far better ways of desiging parts and rapid prototyping, if you are interested in serious design and 3D printing there are much better and detailed blogs explaining the same, however one can read this blog and understand the path we took to design and produce prosthetic fingers. 
+ 
 
 ## Problem definition
 Our problem statement is how we might design, and make available to amputees with a palm but no fingers, prosthetic fingers that adapt instantaneously to the movement of the thumb. The pictures of the amputed hand of the patient is shown below.
@@ -134,6 +132,11 @@ In conclusion, the goal of this project was to redesign prosthetic fingers to me
 Attaching the final photo of the prosthetic worn by the patient.
 
 <img src="{{site.baseurl}}/blog-projects/assets/images/final-prosthetic.jpg" width="320" height="240" style="vertical-align:middle;margin:50px 150px">
+
+The gif showing the movement mechanism is as shown below.
+
+<img src="{{site.baseurl}}/blog-projects/assets/images/Grasping video.gif" width="426" height="240" style="vertical-align:middle;margin:50px 150px"> 
+
 
 <!---
 Final Note: Certain processes, softwares and techniques used in this project might not be perfect and would seem to be completely different than the industry standards, this is because this project was done by figuring out and tinkering with no guidance from any industry experts, we as students had no idea about rapid prototyping and manufacturing and the challenges that we would face, despite these problems we were able to achieve our objective and demonstrate that it is possible to manufacture cost effective prosthetics. I hope this blog helps anyone who is trying to achieve this objective.
