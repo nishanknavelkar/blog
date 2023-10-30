@@ -8,29 +8,29 @@ tags: [bachelors project, robotics, prototyping, electronics, 3D printing]
 ## Introduction
 An artificial hand is one that replaces a missing part of the human hand. Prostheses are the artificial replacement for missing human limbs.Throughout history, we can see evidence of people using some sort of devices that helped them to do the tasks much more easily, wood, metal, and other materials were used at first, then lighter materials were being used and then the process evolved to make the devices much more human body like. Nowadays we can see advanced prosthetics that are so much similar to human limbs and mimic the functions as well, but the cost involved is high and since these designs are under the protection of patents there are very less chances of people using them especially in developing or underdeveloped countries, although many open sources crowdfunded companies have come up that help people with their disabilities there is a lot of work to be done to make it affordable. 
  
-
 ## Problem definition
 Our problem statement is how we might design, and make available to amputees with a palm but no fingers, prosthetic fingers that adapt instantaneously to the movement of the thumb. The pictures of the amputed hand of the patient is shown below.
 
 Amputed Hand (Back view) | Mould of the same hand (Front view)
 --- | ---
-<img src="./hand.jpeg"> | <img src="./mould.jpeg">
+![hand](./hand.jpeg) | ![mould](./mould.jpeg)
+
 
 
 ## Design Process
 
-<img src="./concepts.jpeg"> 
+![concepts](./concepts.jpeg)
 
 We had to first get a digital model to design our attachment, this was done by 3D scanning the moulds. The aim was to design fingers and an attachment that exactly fit the contours of the amputed hand so as to retain maximum movement of the hand, the project was done with the help of prostodontists and with their consultation the following approach was decided. One concept image is shown above, we were experimenting and looking at the way we could design the fingers and the movement mechanisms such that it exactly matched with the other hand. The image below shows how we scanned the moulds to get the digital copy with which we could further design the attachment.
 
-<img src="./scanning.jpeg" width="320" height="341" style="vertical-align:middle;margin:50px 250px"> 
+![scanning](./scanning.jpeg)
 
 
 The 3D scans of both hands(Right and left) are shown below.
 
 Left Hand  | Right hand 
 --- | ---
-<img src="./scan-left.png"> | <img src="./scan-right.png">
+![left-scan](./scan-left.png) | ![right-scan](./scan-right.png) 
 
 These scans were done by a 3D scanner, the size of the scans were huge since it was captured in the highest possible resolution, this needed to be reduced for further processing and an opensource software was used to perform simplification and reduce the size.
 
@@ -38,18 +38,18 @@ In order to design an attachment that exactly fit the countours, the best idea w
 
 Left Hand back  | Left hand front
 --- | ---
-<img src="./hand-sketchup.jpeg"> | <img src="./hand-sketchup-front.jpeg">
+![handsketch](./hand-sketchup.jpeg)  | ![fronthandsketch](./hand-sketchup-front.jpeg)
 
 The front part of the scans wes cut and some thickness was provided, this then had to go through multiple cleaning processes in order to be sent to a slicer and 3D printed, the process of cleaning the files will be explained in a section below, the edited files and the 3D prints are shown below.
 
 Attachment  | Prints
 --- | ---
-<img src="./attachment.jpeg"> | <img src="./attachment-printed.jpeg">
-<img src="./attachment-back.jpeg"> | <img src="./attachment-printed-back.jpeg">
+![attachment](./attachment.jpeg) | ![printedattachment](./attachment-printed.jpeg)
+![backattachment](./attachment-back.jpeg) | ![printedbackattachment](./attachment-printed-back.jpeg)
 
 The attachment was check in the 3D environment wheter it would fit the hands of the patient, the image shown below shows that enough clearances were provided for the attachment to slide over the amputated hand.
 
-<img src="./hand-and-attachment.jpeg" width="574" height="415" style="vertical-align:middle;margin:50px 50px"> 
+![handattachment](./hand-and-attachment.jpeg)
 
 ## Softwares and Processes
 The softwares used to process and edit the files are listed below, 
@@ -92,14 +92,14 @@ The above functions reduce the complexity and decrease the size which is suitabl
 
 Meshlab Software | Meshlab Software with attachment
 --- | ---
-<img src="./meshlab.jpg"> | <img src="./meshlab-attachment.jpg">
+![meshlab](./meshlab.jpg) | ![meshlabattachment](./meshlab-attachment.jpg)
 
 #### Editing
 The editing of the scanned meshes is done in Sketchup. The mesh is imported, then it is exploded to highlight the individual triangles, then the unwanted parts of the scans are removed, the above process is shown in the images below.
 
 Attachment edited in sketchup | Thumb prosthetic in sketchup
 --- | ---
-<img src="./inal-attachment.jpg"> | <img src="{./final-attachment-thumb.jpg">
+![finalattachment](./final-attachment.jpg) | ![finalthumbattachment](./final-attachment-thumb.jpg)
 
 The next process is to provide thickness to the scans since they are just in a single layer. This is done using an extension in Sketchup called joint push-pull. The extension has special algorithms that intelligently provide thickness to complex shapes and automatically deletes the overlapping parts and fills in the empty parts to provide a smooth surface. This technique was used to create thickness in the attachment.
 
@@ -114,7 +114,7 @@ The process, however, does not stop here, another free service called Nettfab on
 
 Attachment during repair | 3D printer
 --- | ---
-<img src="./final-attachment-repaired.jpg"> | <img src="./3d-printer.jpg">
+![repairedattachment](./final-attachment-repaired.jpg) | ![printer3d](./3d-printer.jpg)
 
 
 #### Printing
@@ -132,11 +132,11 @@ In conclusion, the goal of this project was to redesign prosthetic fingers to me
 
 Attaching the final photo of the prosthetic worn by the patient.
 
-<img src="./final-prosthetic.jpg" width="320" height="240" style="vertical-align:middle;margin:50px 150px">
+![finalprosthetic](./final-prosthetic.jpg)
 
 The gif showing the movement mechanism is as shown below.
 
-<img src="./Grasping video.gif" width="426" height="240" style="vertical-align:middle;margin:50px 150px"> 
+![graspingvideo](./Grasping-video.gif)
 
 
 <!---
