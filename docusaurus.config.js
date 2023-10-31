@@ -73,8 +73,8 @@ const config = {
         },
         items: [
           {
-            to: '/blog', 
-            label: 'Blog', 
+            to: 'my-second-blog', 
+            label: 'Projects/Blog', 
             position: 'left',
           },
           {
@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/my-second-blog',
               },
             ],
           },
@@ -140,6 +140,28 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  
+  
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'second-blog',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'my-second-blog',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './my-second-blog',
+      },
+    ],
+  ],
 };
 
 module.exports = config;
