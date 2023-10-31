@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[2858],{2881:o=>{o.exports=JSON.parse('{"permalink":"/blog/my-second-blog/tags/prototyping","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

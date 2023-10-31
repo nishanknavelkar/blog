@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[286],{9142:l=>{l.exports=JSON.parse('{"label":"3D printing","permalink":"/blog/my-second-blog/tags/3-d-printing","allTagsPath":"/blog/my-second-blog/tags","count":1}')}}]);
