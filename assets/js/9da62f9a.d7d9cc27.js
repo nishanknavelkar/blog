@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[8538],{1824:e=>{e.exports=JSON.parse('{"label":"electronics","permalink":"/blog/my-second-blog/tags/electronics","allTagsPath":"/blog/my-second-blog/tags","count":1}')}}]);

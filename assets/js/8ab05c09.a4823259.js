@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[5314],{9366:l=>{l.exports=JSON.parse('{"label":"Fuel Cell","permalink":"/blog/my-second-blog/tags/fuel-cell","allTagsPath":"/blog/my-second-blog/tags","count":1}')}}]);
