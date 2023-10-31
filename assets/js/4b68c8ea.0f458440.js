@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[8520],{2930:l=>{l.exports=JSON.parse('{"label":"bachelors project","permalink":"/blog/blog/tags/bachelors-project","allTagsPath":"/blog/blog/tags","count":1}')}}]);
