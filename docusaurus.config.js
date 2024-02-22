@@ -73,7 +73,7 @@ const config = {
         },
         items: [
           {
-            to: 'my-second-blog', 
+            to: 'my-blog', 
             label: 'Projects/Blog', 
             position: 'left',
           },
@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'Blog',
-                to: '/my-second-blog',
+                to: '/my-blog',
               },
             ],
           },
@@ -154,11 +154,11 @@ const config = {
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: 'my-second-blog',
+        routeBasePath: 'my-blog',
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: './my-second-blog',
+        path: './my-blog',
       },
     ],
   ],
